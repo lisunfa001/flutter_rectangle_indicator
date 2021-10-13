@@ -30,6 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMixin {
+
   late final _controller = TabController(length: 2, vsync: this);
 
   @override
